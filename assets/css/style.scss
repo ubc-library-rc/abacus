@@ -57,7 +57,7 @@ body {
   }
 }
 
-.project-tagline .project-name {
+.project-tagline {
   margin-bottom: 0.1rem;
   font-weight: normal;
   opacity: 1;
@@ -78,3 +78,26 @@ body {
 .main-content {
   max-width: 90%;
 }
+
+.project-name {
+  margin-bottom: 0.1rem;
+  font-weight: normal;
+  opacity: 1;
+
+  @include large {
+    font-size: 1.25rem;
+  }
+
+  @include medium {
+    font-size: 1.15rem;
+  }
+
+  @include small {
+    font-size: 1rem;
+  }
+}
+
+.main-content {
+  max-width: 90%;
+}
+
