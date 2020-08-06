@@ -11,4 +11,20 @@ body {
 
 .page-header {
   text-align: left;
+  background-color: $header-bg-color;
+  background-image: none;
+
+  @include large {
+    padding: 2rem 1rem;
+  }
+
+  @include medium {
+    padding: 2rem 1rem;
+  }
+
+  @include small {
+    padding: 2rem 1rem;
+  }
+}
+
 }
