@@ -1,6 +1,4 @@
 theme: jekyll-theme-cayman
 title: Abacus Data Network
 description: User guide and resources
-header-heading-color: black
-header-bg-color: red
-header-bg-color-secondary: green
+
