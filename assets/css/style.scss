@@ -14,8 +14,8 @@ body {
   background-color: #f8f8f8;
   border-color: #e7e7e7;
   background-image: url(media/abacus-header.png);
-  color: 	#404040;  
-  padding: 2rem 3rem
+  color: 	##536F77;  
+  padding: 1rem 3rem
 }
 
 .project-name {
@@ -36,9 +36,9 @@ body {
 }
 
 .project-tagline .project-name {
-  margin-bottom: 1rem;
+  margin-bottom: 0.1rem;
   font-weight: normal;
-  opacity: 0.9;
+  opacity: 1;
 
   @include large {
     font-size: 1.25rem;
