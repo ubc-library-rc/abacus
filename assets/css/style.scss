@@ -82,6 +82,6 @@ h3 {
     padding: 0.25rem 1rem;
 }
 
-.active {
-    color: red;
+.active a {
+    color: $section-headings-color;
 }
