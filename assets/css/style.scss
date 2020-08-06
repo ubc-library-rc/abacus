@@ -81,3 +81,7 @@ h3 {
 .main-content table th, .main-content table td {
     padding: 0.25rem 1rem;
 }
+
+.span.active.nav-item {
+    color: $section-headings-color;
+}
