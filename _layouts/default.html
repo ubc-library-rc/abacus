@@ -22,12 +22,16 @@
   <body>
 
     <header class="page-header" role="banner">
-      <h2 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h2>
-      <h3 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h3>
+      <div style="float: left;"><img src="media/abacus-header.png"/></div>
+      <div style="float: left;"><h3 class="project-tagline">{{ page.title | default: site.title | default: site.github.repository_name }}: {{ page.description | default: site.description | default: site.github.project_tagline }}</h3>
+      </div>
+      <div style="clear: both;"> <a href="index.html">Home</a> | <a href="user-guide.html">User guide</a> | <a href="collection-policy.html">Collection policy</a> | <a href="privacy.html">Privacy Policy</a> | <a href="metadata-guide.html">Metadata guide</a>
+      </div>
+        
     </header>
 
     <main id="content" class="main-content" role="main">
-      <a href="index.html">Home</a> | <a href="user-guide.html">User guide</a> | <a href="collection-policy.html">Collection policy</a> |<a href="privacy.html">Privacy Policy</a> | <a href="metadata-guide.html">Metadata guide</a> 
+
       {{ content }}
 
       <footer class="site-footer">
