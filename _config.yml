@@ -2,8 +2,8 @@ theme: jekyll-theme-cayman
 title: Abacus Data Network
 description: user guide and resources
 navigation:
-      - text: Home
-        title: Home
+      - text: About
+        title: About
         url: /index.html
       - text: User guide
         title: User guide
