@@ -1,4 +1,19 @@
 theme: jekyll-theme-cayman
 title: Abacus Data Network
 description: user guide and resources
-
+navigation:
+      - text: Home
+        title: Home
+        url: /index.html
+      - text: User guide
+        title: User guide
+        url: /user-guide.html 
+      - text: Collection policy
+        title: Collection policy
+        url: /collection-policy.html 
+      - text: Privacy policy
+        title: Privacy policy
+        url: /privacy.html 
+      - text: Metadata guide
+        title: Metadata guide
+        url: /metadata-guide.html 
