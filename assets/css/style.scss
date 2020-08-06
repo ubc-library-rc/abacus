@@ -14,6 +14,7 @@ body {
   background-color: #f8f8f8;
   border-color: #e7e7e7;
   background-image: none;
+  color: black;
 
   @include large {
     padding: 2rem 1rem;
@@ -28,4 +29,39 @@ body {
   }
 }
 
+}
+
+.project-name {
+  margin-top: 0;
+  margin-bottom: 0.1rem;
+
+  @include large {
+    font-size: 2.25rem;
+  }
+
+  @include medium {
+    font-size: 2rem;
+  }
+
+  @include small {
+    font-size: 1.75rem;
+  }
+}
+
+.project-tagline {
+  margin-bottom: 1rem;
+  font-weight: normal;
+  opacity: 0.7;
+
+  @include large {
+    font-size: 1.25rem;
+  }
+
+  @include medium {
+    font-size: 1.15rem;
+  }
+
+  @include small {
+    font-size: 1rem;
+  }
 }
