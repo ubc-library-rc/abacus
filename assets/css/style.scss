@@ -3,4 +3,12 @@
 
 @import "{{ site.theme }}";
 
-.main-content {color: red}
+/* content below this line overrides css from https://github.com/pages-themes/cayman/blob/master/_sass/jekyll-theme-cayman.scss */
+
+body {
+  font-size: 14px
+}
+
+.page-header {
+  text-align: left;
+}
