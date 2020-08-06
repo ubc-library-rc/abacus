@@ -43,6 +43,7 @@ body {
 
 .project-tagline {
   padding-top: 0.25em;
+  margin-bottom: 0.5rem;
   font-weight: normal;
   opacity: 1;
   padding-left: 1rem;
@@ -75,4 +76,8 @@ h2 {
 
 h3 {
   font-size: 1.1em;
+}
+
+.main-content table th, .main-content table td {
+    padding: 0.25rem 1rem;
 }
