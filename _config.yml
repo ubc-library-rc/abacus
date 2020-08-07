@@ -7,7 +7,7 @@ navigation:
         url: /index.html
       - text: User guide
         title: User guide
-        url: /user-guide.html 
+        url: /en/guides/user/index.html 
       - text: Collection policy
         title: Collection policy
         url: /collection-policy.html 
