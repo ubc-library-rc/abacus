@@ -7,7 +7,7 @@
                 {% assign state = 'active ' %}
             {% endif %}
             <span class="{{ state }}nav-item">
-             | <a href="{% if page.url == link.url %}{{ site.baseurl }}{% else %}{{ site.baseurl }}{{ link.url }}{% endif %}" title="{{ link.title }}">{{ link.text }}</a>
+             | <a href="{{ site.baseurl }}{{ link.url }}" title="{{ link.title }}">{{ link.text }}</a>
         </span>
         {% endfor %}
     </div>
