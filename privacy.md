@@ -1,4 +1,4 @@
-## Abacus privacy policy
+# Abacus privacy policy
 
 Abacus creates user accounts that include your name and email address. This personal
 information is collected under the authority of section 26(c) of the Freedom of Information and
