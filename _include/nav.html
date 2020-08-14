@@ -1,0 +1,15 @@
+  
+<nav>
+    <div class="nav">
+        
+        {% for link in site.navigation %}
+            {% assign state = '' %}
+            {% if page.url == link.url %}
+                {% assign state = 'active ' %}
+            {% endif %}
+            <span class="{{ state }}nav-item">
+             | <a href="{{ site.baseurl }}{{ link.url }}" title="{{ link.title }}">{{ link.text }}</a>
+        </span>
+        {% endfor %}
+    </div>
+</nav>
