@@ -7,13 +7,7 @@ navigation:
         url: /index.html
       - text: User guide
         title: User guide
-        url: /en/guides/user/index.html 
-      - text: Collection policy
-        title: Collection policy
-        url: /collection-policy.html 
+        url: /en/guides/user/index.html  
       - text: Privacy policy
         title: Privacy policy
         url: /privacy.html 
-      - text: Metadata guide
-        title: Metadata guide
-        url: /metadata-guide.html 
