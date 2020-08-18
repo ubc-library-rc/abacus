@@ -1,13 +1,14 @@
 # User guide
-Basic instructions on key activities/functions in Abacus
 
-- Login
-- Search
-- Download
-- Metadata
-- Help/Support
+While Abacus is designed to be as easy to use as possible, searching for and using data is complex by its very nature. To help you start to navigate Abacus, here are some basic instructions on key activities and functions. If you already know the basics and wish to explore further, please see the [Advanced User's Guide](http://guides.dataverse.org/en/latest).
+ 
+- [Login](#login)
+- [Search](#search)
+- [Download](#download)
+- [Metadata](#metadata)
+- [Help/Support](#help)
 
-## Login
+## <a name='login' />Login
 
 The primary *Abacus* web page is located at <https://abacus.library.ubc.ca>. If you have come directly to this page, as opposed to navigating from your institution's library web site, you will need to **log in**, using the **Log In** link at the extreme right of the menu bar.
 
@@ -17,7 +18,7 @@ If the drop-down list of institutions is not visible and you are being prompted 
 
 **It is not necessary to create a username/password for Abacus**. Your institutional login ID is all that is required to access and download files to which your university has access.
 
-## Search
+## <a name='search' />Search
 
 ### Default search
 Searching is possible from almost anywhere inside Abacus. From the main page at <https://abacus.library.ubc.ca>, the search feature will search the *entire* contents of Abacus, including material to which your institution may not have access.
@@ -35,7 +36,7 @@ Facets may also be discarded once applied by clicking on them after they appear 
 
 The **Advanced** search will allow you to search by very specific individual fields, and to **search within the data itself** for applicable data sets. Note that not all data sets have variable level searching implemented, nor does every study in Abacus have every field filled, as some values are not applicable to some types of data sets.
 
-## Download
+## <a name='download' />Download
 
 Once you've found a data set in the search, click on the title and you'll be taken to its page. By default, you are taken to a short display with an abstract and a listing of files. For each file, you may have several options, depending on its type.
 
@@ -51,10 +52,15 @@ To download multiple files at once, select the checkbox at the left of the top r
 
 For data sets with very large files, such as the geospatial datasets from *DMTI Spatial Inc.* or compilations of lidar or orthoimagery, downloads may be truncated due to size limits on zip files. Other download options are available, such as API based downloads (as per the Advanced User's Guide](http://guides.dataverse.org/en/latest)).
 
-## Metadata
+## <a name='metadata' />Metadata
 
+To view the metadata or detailed description of the material in Abacus, select the **Metadata** tab of the data set in which you are viewing. By default, citation metadata is visible, with other sections of metadata (such as Geospatial data) is only visible after clicking on the appropriate button. 
 
-## Help/support
+For many social science data sets, much of the metadata will be stored in the *Social Science and Humanities Metadata* section, such as sample information, etc.
+
+Study metadata can be exported in a variety of formats for use in other applications by selecting the format desired from the **Export Metadata** button found just above the citation metadata. Some formats can be used with citation managers, such as DataCite and Dublin Core, but import formats are dependent entirely on the citation manager software.
+
+## <a name='help' />Help/support
 
 For more detailed information beyond this brief guide, please see the [Advanced User's Guide](http://guides.dataverse.org/en/latest), which will give a detailed overview of the use of Dataverse, the software which powers Abacus.
 
