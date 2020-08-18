@@ -12,9 +12,15 @@ While Abacus is designed to be as easy to use as possible, searching for and usi
 
 The primary *Abacus* web page is located at <https://abacus.library.ubc.ca>. If you have come directly to this page, as opposed to navigating from your institution's library web site, you will need to **log in**, using the **Log In** link at the extreme right of the menu bar.
 
+![Where to login](images/login.png)
+
 By default, you will be presented with a drop down list of the four institutions participating in Abacus. Select your institution from the drop down list and login using the credentials supplied by your university, such as the Campus-wide Login (CWL) used at the University of British Columbia.
 
+![Login screen](images/selectscreen.png)
+
 If the drop-down list of institutions is not visible and you are being prompted for username/password authentication, you will see **Other options**  underneath the dialogue boxes, with a button labelled **Your Institution**. Clicking on this button will produce the drop-down list as described above.
+
+![Switch to institutional login](images/switch.png)
 
 **It is not necessary to create a username/password for Abacus**. Your institutional login ID is all that is required to access and download files to which your university has access.
 
@@ -22,6 +28,8 @@ If the drop-down list of institutions is not visible and you are being prompted 
 
 ### Default search
 Searching is possible from almost anywhere inside Abacus. From the main page at <https://abacus.library.ubc.ca>, the search feature will search the *entire* contents of Abacus, including material to which your institution may not have access.
+
+![Your institution's data](images/institution.png)
 
 To easily limit the material to which your account has access, select your university from the icons at the top of the page.
 
