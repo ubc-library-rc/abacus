@@ -1,6 +1,6 @@
 # User guide
 
-While Abacus is designed to be as easy to use as possible, searching for and using data is complex by its very nature. To help you start to navigate Abacus, here are some basic instructions on key activities and functions. If you already know the basics and wish to explore further, please see the [Advanced User's Guide](http://guides.dataverse.org/en/latest).
+While Abacus is designed to be as easy to use as possible, searching for and using data is complex by its very nature. To help you start to navigate Abacus, here are some basic instructions on key activities and functions. If you already know the basics and wish to explore further, please see the [Advanced User's Guide](http://guides.dataverse.org/en/4.20).
  
 - [Login](#login)
 - [Search](#search)
@@ -58,7 +58,7 @@ Once you've found a data set in the search, click on the title and you'll be tak
 
 To download multiple files at once, select the checkbox at the left of the top row of the file table. This will automatically select all of the files in the study. Download the files using **Download** button on the top row of the table. 
 
-For data sets with very large files, such as the geospatial datasets from *DMTI Spatial Inc.* or compilations of lidar or orthoimagery, downloads may be truncated due to size limits on zip files. Other download options are available, such as API based downloads (as per the Advanced User's Guide](http://guides.dataverse.org/en/latest)).
+For data sets with very large files, such as the geospatial datasets from *DMTI Spatial Inc.* or compilations of lidar or orthoimagery, downloads may be truncated due to size limits on zip files. Other download options are available, such as API based downloads (as per the [Advanced User's Guide](http://guides.dataverse.org/en/4.20)).
 
 ## <a name='metadata' />Metadata
 
@@ -70,7 +70,7 @@ Study metadata can be exported in a variety of formats for use in other applicat
 
 ## <a name='help' />Help/support
 
-For more detailed information beyond this brief guide, please see the [Advanced User's Guide](http://guides.dataverse.org/en/latest), which will give a detailed overview of the use of Dataverse, the software which powers Abacus.
+For more detailed information beyond this brief guide, please see the [Advanced User's Guide](http://guides.dataverse.org/en/4.20), which will give a detailed overview of the use of Dataverse, the software which powers Abacus.
 
 Support within Abacus itself is available as well. For email assistance, use the **Support** link in the interface menu bar.
 
