@@ -10,11 +10,17 @@ While Abacus is designed to be as easy to use as possible, searching for and usi
 
 ## <a name='login' />Login
 
-The primary *Abacus* web page is located at <https://abacus.library.ubc.ca>. If you have come directly to this page, as opposed to navigating from your institution's library web site, you will need to **log in**, using the **Log In** link at the extreme right of the menu bar.
+The primary *Abacus* web page is located at <https://abacus.library.ubc.ca>. Anyone may search *Abacus* and view the data descriptions but many data files can only be accessed by users affiliated with SFU, UBC, UNBC, or UVic. To work with these licensed files you will need to **log in** with your university credentials. 
+
+If you have come directly to the *Abacus* home page, as opposed to navigating from your institution's library web site, follow these instructions to **log in**:
+
+**UVic users** [login here](https://login.ezproxy.library.uvic.ca/login?url=https://abacus.library.ubc.ca/dataverse/uvic) using your university credentials. After login you will be redirected to the UVic collection in Abacus.
+
+**SFU, UBC, and UNBC users** use the **Log In** link at the extreme right of the top menu bar.
 
 ![Where to login](images/login.png)
 
-By default, you will be presented with a drop down list of the four institutions participating in Abacus. Select your institution from the drop down list and login using the credentials supplied by your university, such as the Campus-wide Login (CWL) used at the University of British Columbia.
+By default, you will be presented with a drop down list showing SFU, UBC, and UNBC. Select your institution and login using the credentials supplied by your university, such as the Campus-wide Login (CWL) used at the University of British Columbia.
 
 ![Login screen](images/selectscreen.png)
 
@@ -22,7 +28,7 @@ If the drop-down list of institutions is not visible and you are being prompted 
 
 ![Switch to institutional login](images/switch.png)
 
-**It is not necessary to create a username/password for Abacus**. Your institutional login ID is all that is required to access and download files to which your university has access.
+**It is not necessary to select a username/password for Abacus**, an account will be created for you the first time you login. Your institutional login ID is all that is required to access and download files to which your university has access.
 
 ## <a name='search' />Search
 
@@ -31,7 +37,7 @@ Searching is possible from almost anywhere inside Abacus. From the main page at 
 
 ![Your institution's data](images/institution.png)
 
-To easily limit the material to which your account has access, select your university from the icons at the top of the page.
+To easily limit your search to material to which your account has access, select your university from the icons at the top of the page. To limit your search to material that is available to the public without log in, select the [Abacus Open Data](https://abacus.library.ubc.ca/dataverse/abacus-open) icon.
 
 The general search is a generalized keyword search. You can search for phrases by enclosing them in quotation marks: eg. `"Adult Literacy Survey"`  will find the *International Adult Literacy Survey (IALS)* but not the *Adult Literacy and Life Skills Survey*.  
 
