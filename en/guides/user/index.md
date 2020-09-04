@@ -10,6 +10,16 @@ While Abacus is designed to be as easy to use as possible, searching for and usi
 
 ## <a name='login' />Login
 
+### Your first login
+
+If you have never logged in to Abacus, when you log in for the **first time** from your institutional web page, you will be taken to the account creation page. Abacus will automatically create an account which uses information provided by your institution.
+
+Verify that your account details are correct (which they should be, as they have come from your institution) and confirm them.
+
+Click on the *Abacus* logo at the top left of the page, and you will be able to use the Abacus service.
+
+**You will only need to perform the above on your very first login**.
+
 The primary *Abacus* web page is located at <https://abacus.library.ubc.ca>. Anyone may search *Abacus* and view the data descriptions but many data files can only be accessed by users affiliated with SFU, UBC, UNBC, or UVic. To work with these licensed files you will need to **log in** with your university credentials. 
 
 If you have come directly to the *Abacus* home page, as opposed to navigating from your institution's library web site, follow these instructions to **log in**:
@@ -28,7 +38,7 @@ If the drop-down list of institutions is not visible and you are being prompted 
 
 ![Switch to institutional login](images/switch.png)
 
-**It is not necessary to select a username/password for Abacus**, an account will be created for you the first time you login. Your institutional login ID is all that is required to access and download files to which your university has access.
+**It is not necessary to select a username/password for Abacus**, an account will be created for you the first time you login. Your institutional login ID is all that is required to access and download files to which your university has access. See **your first login** above.
 
 ## <a name='search' />Search
 
@@ -58,7 +68,39 @@ Once you've found a data set in the search, click on the title and you'll be tak
 
 * For statistical files which are available for online analysis, you can view their contents and download in a variety of formats by using the **Explore** button. You will also be able to view summary statistics for these data sets and create cross-tabulations, as well as search within the data set itself at the variable level.
 
-* To see a preview (if available),permanent URL and other metadata for a particular file, click on the **filename**. The next page will provide citations for both the data set and the individual *file*, as well as a record of any changes to the file itself. The metadata tab will also provide a direct download link, and display an md5 checksum should you wish to verify your download.
+### Linking and downloading individual files
+
+* To see a preview (if available), permanent URL and other metadata for a particular file, click on the **filename**. The next page will provide citations for both the data set and the individual *file*, as well as a record of any changes to the file itself. The file may be downloaded by clicking the **Download** button. The metadata tab will may also provide a direct download link (if available), and display an md5 checksum should you wish to verify your download.
+
+If there is no direct download link, and programmatic access is required, the using the equivalent of the following `curl` commands will allow direct download.
+
+#### Publicly accessible data files
+
+As an example, the [2020 Labour Force Survey](https://dvn.library.ubc.ca/dataset.xhtml?persistentId=hdl:11272.1/AB2/GGXMM2&version=2.0) data:
+
+File page for the **August 2020 ASCII data**:
+
+`https://dvn.library.ubc.ca/file.xhtml?persistentId=hdl:11272.1/AB2/GGXMM2/KMGN1A&version=2.0`
+
+To download this file:
+
+`curl "https://abacus.library.ubc.ca/api/access/datafile/:persistentId/?persistentId=hdl:11272.1/AB2/GGXMM2/KMGN1A" -o micro2020-08.zip"`
+
+#### Licensed data
+
+To download licensed data, you will need an API token (see the [Advanced User's Guide](http://guides.dataverse.org/en/4.20))
+
+As an example, the [CanMap Content Suite, v2019.3](https://dvn.library.ubc.ca/dataset.xhtml?persistentId=hdl:11272.1/AB2/PCTBFN&version=1.0):
+
+File page for the **WatershedsRegion.zip** file:
+
+`https://dvn.library.ubc.ca/file.xhtml?persistentId=hdl:11272.1/AB2/PCTBFN/IBVPVN&version=1.0`
+
+To download this file:
+
+`curl -H "X-Dataverse-key: YOURAPITOKEN" "https://abacus.library.ubc.ca/api/access/datafile/:persistentId/?persistentId=hdl:11272.1/AB2/PCTBFN/IBVPVN" -o WatershedsRegion.zip`
+
+Where YOURAPITOKEN is your account's API token.
 
 ### Bulk downloads
 
@@ -81,5 +123,3 @@ For more detailed information beyond this brief guide, please see the [Advanced 
 Support within Abacus itself is available as well. For email assistance, use the **Support** link in the interface menu bar.
 
 For support with specific data sets, or to report errors and technical issues, within each record you can use the **Contact** button just above and to the right of the dataset title. Note that in most cases, the **Support** and **Contact** buttons will be sent to the same people, ie *Abacus Support*.
-
-
