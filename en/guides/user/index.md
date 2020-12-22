@@ -49,7 +49,21 @@ Searching is possible from almost anywhere inside Abacus. From the main page at 
 
 To easily limit your search to material to which your account has access, select your university from the icons at the top of the page. To limit your search to material that is available to the public without log in, select the [Abacus Open Data](https://abacus.library.ubc.ca/dataverse/abacus-open) icon.
 
-The general search is a generalized keyword search. You can search for phrases by enclosing them in quotation marks: eg. `"Adult Literacy Survey"`  will find the *International Adult Literacy Survey (IALS)* but not the *Adult Literacy and Life Skills Survey*.  
+The general search is a generalized keyword search. By default, search terms are connected with the Boolean OR (||) operator. Thus, entering `adult literacy survey` will match material on `adult` OR `literacy` OR `survey`, but not necessarily all three. To do this, use the AND operator: `adult AND literacy AND survey` or, alternatively, `adult && literacy && survey`.
+
+You can also search for phrases by enclosing them in quotation marks. This is a powerful way to search when you know what you are looking for. However, be aware that it is incredibly restrictive and may exclude material of interest. For example, `"adult literacy survey"`  will find the *International Adult Literacy Survey (IALS)*, but not the *Adult Literacy and Life Skills Survey*.
+
+Additional useful Boolean operators include NOT (!), +, and -. NOT (!) and - function similarly, requiring that the following term not be present, while + requires that the following term be present. For instance, `literacy NOT child`, or `literacy -child`, will return all results on "literacy", excluding the word "child", while `+"adult literacy" survey` requires material be returned with the phrase "adult literacy", but may or may not contain the word "survey".
+
+NOTE: To use Boolean operators in word form (e.g. AND, OR, NOT), all letters must be in uppercase to function.
+
+To escape special characters, precede them with a backslash (\). For example, the syntax for searching for `1+1` would be `1\+1`, since the + sign functions as a Boolean operator.
+
+For added control over the Boolean logic of a search, users can group clauses to form sub-queries using parentheses. Searching for `vaccine AND ("corona virus" OR "COVID-19")` will produce material that matches "vaccine" and "corona virus" or "vaccine" and "COVID-19".
+
+Users can also narrow their search within Abacus by querying specific fields. The syntax for this requires first specifiying the field to be searched (e.g. `title`), followed by a `:`, and then the term to search for: `title: financialization`. Note that searching for multiple terms within a field requires specifying that field before each term. For example, the sytnax for searching for "financial markets" within the "title" field is `title:financial AND title:markets`. Using the query `title:"financial markets"` will search for "financial" in the "title" field and "markets" in the default field.
+
+Abacus supports the use of both single- and multiple-character wildcards in its search software. Single-character wildcard searches use the `?` operator. For instance, `?oom` matches "zoom", "room", and "boom", but not "broom". `?` can appear anywhere in a term (beginning, middle, or end). The `*` operator matches zero or more sequential characters in a term. So, `revolution*` matches "revolution", "revolutionary", and "revolutionaries". Like the `?` operator, it can be placed anywhere in a term. Note that wilcard operators only function on terms, not phrases.
 
 Should you have too many results, they can limited by selecting the facets on the left side of the page, such as "Publication Year".
 
