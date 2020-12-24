@@ -15,3 +15,7 @@ Some content to include:
 
 This [Markdown cheat sheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) may help with formatting content. 
 Soon after making a change in Git, the output will be visible at <https://ubc-library-rc.github.io/abacus/en/guides/user/search.html>
+
+
+![Screenshot showing user where to select on Abacus user interface to remove facets feature](images/facet_remove.png)
+<img src="images/facet_remove.png" width="50%"/>
