@@ -18,4 +18,4 @@ Soon after making a change in Git, the output will be visible at <https://ubc-li
 
 
 ![Screenshot showing user where to select on Abacus user interface to remove facets feature](images/facet_remove.png)
-<img src="images/facet_remove.png" width="50%"/>
+<img style="padding-top: 15px; padding-bottom: 15px; margin-left: 50px" src="images/facet_remove.png" width="80%"/>
