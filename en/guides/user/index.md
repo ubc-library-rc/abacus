@@ -75,7 +75,7 @@ Abacus supports the use of both single- and multiple-character **wildcards** in 
 
 > Wilcard operators function only on terms, not phrases.
 
-For additional tips, refer to the [search syntax page](https://ubc-library-rc.github.io/abacus/en/guides/user/search.md).
+For additional tips, refer to the [search syntax page](https://ubc-library-rc.github.io/abacus/en/guides/user/search).
 
 ### Advanced search
 
