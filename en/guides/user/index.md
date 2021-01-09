@@ -1,6 +1,6 @@
 # User guide
 
-While Abacus is designed to be as easy to use as possible, searching for and using data is complex by its very nature. To help you start to navigate Abacus, here are some basic instructions on key activities and functions. If you already know the basics and wish to explore further, please see the [Advanced User's Guide](http://guides.dataverse.org/en/4.20).
+While Abacus is designed to be as easy to use as possible, searching for and using data is complex by its very nature. To help you start to navigate Abacus, here are some basic instructions on key activities and functions. If you already know the basics and wish to explore further, please see the [search syntax](https://ubc-library-rc.github.io/abacus/en/guides/user/search) page and the [Advanced User's Guide](http://guides.dataverse.org/en/4.20).
  
 - [Login](#login)
 - [Search](#search)
@@ -41,6 +41,7 @@ If the drop-down list of institutions is not visible and you are being prompted 
 **It is not necessary to select a username/password for Abacus**, an account will be created for you the first time you login. Your institutional login ID is all that is required to access and download files to which your university has access. See **your first login** above.
 
 ## <a name='search' />Search
+This section introduces Abacus search options. For more information see the [search syntax](https://ubc-library-rc.github.io/abacus/en/guides/user/search) page.
 
 ### Default search
 Searching is possible from almost anywhere inside Abacus. From the main page at <https://abacus.library.ubc.ca>, the search feature will search the *entire* contents of Abacus, including material to which your institution may not have access.
