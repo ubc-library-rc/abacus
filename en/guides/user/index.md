@@ -63,19 +63,16 @@ Facets may also be discarded once applied by clicking on them after they appear 
 
 <img style="padding-top: 30px; padding-bottom: 30px; margin-left: 50px" src="images/facet_remove.png" width="80%"/>
 
-### Search syntax
-
-The **general search** in Abacus is a generalized keyword search. By default, search terms are connected with the Boolean `OR` operator. Thus, entering `adult literacy survey` into the search field will match material related to "adult", "literacy", or "survey", but not necessarily all three. To do this, use the `AND` operator: `adult AND literacy AND survey`.
-
-**Searching for phrases** is often an effective way to quickly locate data. This is done by enclosing multiple terms in double quotation marks: `"adult literacy"`. While this can be a powerful way to search when you already know, specifically, what you are looking for, it is important to be aware of its potential limitations--namely, it is very restrictive and may incidentally exclude material of interest. For example, a search for `"adult literacy survey"`  will return the *International Adult Literacy Survey (IALS)*, but not the *Adult Literacy and Life Skills Survey*.
-
-> Searching for phrases must be done using *double* quotation marks. Using single quotation marks is equivalent to using *no* quotation marks. Thus, `'public use microdata file'` produces the same results as `public use microdata file`: a search for items containing either the terms "public", "use", "microdata", or "file", but not the phrase "public use microdata file".
-
-Abacus supports the use of both single- and multiple-character **wildcards** in its search software. Single-character wildcard searches use the `?` operator. For instance, `?oom` matches "zoom", "room", and "boom", but not "broom". The `?` operator can appear anywhere in a term (beginning, middle, or end). The `*` operator matches zero or more sequential characters in a term. So, `revolution*` matches "revolution", "revolutionary", and "revolutionaries". Like the `?` operator, it can be placed anywhere in a term.
+#### Selected search tips
+- **Boolean operators**. By default, search terms are connected with the Boolean `OR` operator. Use `AND` between search terms if you would like results to contain _all_ your terms: e.g. `adult AND literacy AND education`.
+- **Searching for phrases**. Enclose search terms in double quotation marks to find records that contain the exact phrase: e.g. `"adult literacy"`. Be careful not to inadvertently exclude material of interest: for example, a search for `"adult literacy survey"`  will return the *International Adult Literacy Survey (IALS)*, but not the *Adult Literacy and Life Skills Survey*.
+- **Wildcards**. Abacus supports single- and multiple-character wildcards:
+	- `?` to match one character. `?oom` matches "zoom", "room", and "boom", but not "broom".
+	- `*` to match zero or more characters. `revolution*` matches "revolution", "revolutionary", and "revolutionaries".
 
 > Wilcard operators function only on terms, not phrases.
 
-For additional tips, refer to the [search syntax page](https://ubc-library-rc.github.io/abacus/en/guides/user/search).
+For more detail and  additional tips, refer to the [search syntax page](https://ubc-library-rc.github.io/abacus/en/guides/user/search).
 
 ### Advanced search
 
